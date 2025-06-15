@@ -4,8 +4,6 @@ body {
     text-align: center;
 }
 h1{
-    font: bold;
+    font-weight: "bold";
     font-family: "DM Sans";
-
-
 }
