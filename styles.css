@@ -31,6 +31,8 @@ body {
     margin-bottom: 2rem;
 }
 
+/* End hero section */
+
 /* hero icons */
 .hero-icons{
     display: flex;
@@ -49,6 +51,8 @@ body {
     transform:scale(1.1);
     opacity: 0.8;
 }
+
+/* End hero icons */
 
 
 
@@ -98,3 +102,54 @@ body {
 .nav-links a:hover{
     color: #0077b5;
 }
+
+/* End Navigation Bar */
+
+/* Skills Section */
+.skills {
+  padding: 4rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0 1rem;
+}
+
+.skill-icon img {
+  width: 60px;
+  height: 60px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.skill-icon img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+/* End Skills Section */
+
+/* JavaScript revealOnScroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* End JavaScript revealOnScroll */
