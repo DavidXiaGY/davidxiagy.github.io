@@ -358,6 +358,11 @@ a {
     margin-bottom: 1.5rem;
 }
 
+/* .project-meta ~ p{
+    margin-bottom: -10rem;
+} */
+
+
 .project-detail p {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -371,7 +376,14 @@ a {
     margin-top: -4rem;
 }
 
+.project-pathoScreens{
+    transform: scale(0.8);
+    margin-left: -9rem;
+    margin-top: -6.25rem;
+}
+
 .project-screens .bottom-img{
     margin-top: 1.25rem;
 }
+
 /* End Project details for friendsBook and pathoWebsite */
