@@ -290,6 +290,13 @@ a {
     margin-left:auto;
     margin-right:auto;
     max-width: 100rem;
+    margin-top: 5rem;
+}
+
+.about-name{
+    position: absolute;
+    font-size: 72px;
+    top: -3.5rem;
 }
 
 .about-header{
@@ -299,9 +306,10 @@ a {
 }
 
 .section-label{
-    font-size: 1rem;
+    position: absolute;
+    font-size: 2rem;
     font-weight: 500;
-    color: #666;
+    top: -2rem;
 }
 
 .about-main{
@@ -314,6 +322,7 @@ a {
 .about-profile{
     object-fit: cover;
     border-radius:16.77px;
+    object-position: -50px 100px;
 }
 
 .top-img, .bottom-img{
