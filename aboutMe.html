@@ -1,72 +1,111 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- navigation bar  -->
     <header>
-        <nav class="navbar">
-            <div class="nav-items">
-            <div class="nav-logo">
-                <a href="index.html">David Xia</a>
-            </div>
+      <nav class="navbar">
+        <div class="nav-items">
+          <div class="nav-logo">
+            <a href="index.html">David Xia</a>
+          </div>
+          <ul class="nav-links">
             <ul class="nav-links">
-                <ul class="nav-links">
-                <li class="dropdown">
-                    <p class="dropdown-project">Projects <i style="font-size:12px" class="fa">&#xf078;</i></p>
-                    <ul class="dropdown-menu">
-                    <li><a href="friendsBook.html">FriendsBook</a></li>
-                    <li><a href="pathoWebsite.html">Pathology Website</a></li>
-                    </ul>
-                </li>
-                <li><a href="aboutMe.html">About Me</a></li>
+              <li class="dropdown">
+                <p class="dropdown-project">
+                  Projects <i style="font-size: 12px" class="fa">&#xf078;</i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li><a href="friendsBook.html">FriendsBook</a></li>
+                  <li><a href="pathoWebsite.html">Pathology Website</a></li>
                 </ul>
+              </li>
+              <li><a href="aboutMe.html">About Me</a></li>
             </ul>
-            </div>
-        </nav>
+          </ul>
+        </div>
+      </nav>
     </header>
     <!-- End navigation bar  -->
 
-    
     <!-- About Me Section -->
     <section class="about-me">
-        <div class="about-header">
-            <span class="section-label">About Me</span> 
+      <div class="about-header">
+        <span class="section-label">About Me</span>
+      </div>
+
+      <h1 class="about-title">David Xia</h1>
+
+      <div class="about-main">
+        <img
+          src="img/Big-one.png"
+          alt="professional photo"
+          class="about-profile"
+        />
+
+        <div class="about-collage">
+          <div class="top-img">
+            <img
+              src="img/Top-left.png"
+              class="about-thumb"
+              alt="pirate photo"
+            />
+            <img
+              src="img/Top-right.png"
+              class="about-thumb"
+              alt="photo with green toad drink in hand"
+            />
+          </div>
+          <div class="bottom-img">
+            <img
+              src="img/Bottom-left.png"
+              class="about-thumb"
+              alt="photo in dress shirt"
+            />
+            <img
+              src="img/Bottom-right.png"
+              class="about-thumb"
+              alt="photo in gray hoodie"
+            />
+          </div>
         </div>
+      </div>
 
-        <h1 class="about-title">David Xia</h1>
-
-        <div class="about-main">
-            <img src="img/Big-one.png" alt="professional photo" class="about-profile">
-
-            <div class="about-collage">
-                <div class="top-img">
-                    <img src="img/Top-left.png" class="about-thumb" alt="pirate photo">
-                    <img src="img/Top-right.png" class="about-thumb" alt="photo with green toad drink in hand">
-                </div>
-                <div class="bottom-img">
-                    <img src="img/Bottom-left.png" class="about-thumb" alt="photo in dress shirt">
-                    <img src="img/Bottom-right.png" class="about-thumb" alt="photo in gray hoodie">
-                </div>
-            </div>
-        </div>
-
-        <div class="about-description">
-            <p>I’m a third–year Data Science student at Simon Fraser University, passionate about developing user-centered software that addresses real–world challenges. As an aspiring software engineer, I’m always eager to learn—whether that means picking up new programming languages, exploring modern development tools, or embracing challenges that help me grow both professionally and personally.</p>
-            <p>Outside of work, I have a mix of hobbies that keep me balanced—whether it’s playing badminton, exploring new games, trying out different foods, or simply enjoying a peaceful moment in nature. I value time alone to recharge, but I also love connecting with friends and family.</p>
-        </div>
+      <div class="about-description">
+        <p>
+          I’m a third–year Data Science student at Simon Fraser University,
+          passionate about developing user-centered software that addresses
+          real–world challenges. As an aspiring software engineer, I’m always
+          eager to learn—whether that means picking up new programming
+          languages, exploring modern development tools, or embracing challenges
+          that help me grow both professionally and personally.
+        </p>
+        <p>
+          Outside of work, I have a mix of hobbies that keep me balanced—whether
+          it’s playing badminton, exploring new games, trying out different
+          foods, or simply enjoying a peaceful moment in nature. I value time
+          alone to recharge, but I also love connecting with friends and family.
+        </p>
+      </div>
     </section>
 
     <!-- End About Me Section -->
 
-     <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
