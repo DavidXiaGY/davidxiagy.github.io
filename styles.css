@@ -86,8 +86,9 @@ body {
 }
 
 .nav-links{
+    display: flex;
     list-style: none;
-    text-align: right;
+    gap: 2rem;
 }
 
 .nav-links a{
@@ -97,11 +98,57 @@ body {
     transition: color 0.2s;
 }
 
+
 .nav-links a:hover{
     color: #0077b5;
 }
 
+.dropdown-project{
+    margin: 0;
+}
+
 /* End Navigation Bar */
+
+
+/* Dropdown menu for Projects on navBar */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0.5rem 0;
+  border-radius: 8px;
+  min-width: 180px;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  transition: background 0.2s;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f5f5f5;
+}
+
+/* Reveal dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* End Dropdown menu for Projects on navBar */
 
 /* Skills Section */
 .skills h2 {
