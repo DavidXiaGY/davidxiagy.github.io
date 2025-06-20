@@ -395,4 +395,14 @@ a {
     margin-top: 1.25rem;
 }
 
+ .project-links{
+    position: relative;
+    top: -0.5rem;
+}
+
+.friendsBook-link {
+    position: relative;
+    top: -0.5rem;
+}
+
 /* End Project details for friendsBook and pathoWebsite */
